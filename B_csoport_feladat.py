@@ -8,9 +8,9 @@ Majd oldjuk meg a következő feladatokat!Minden feladat előtt a program írja 
 4. Melyik és hányadik volt a legkisebb beírt pozitív egész szám?
 5. Mennyi a negatív számok számok átlaga?"""
 
-proba_lista = [-11,-12,-13,-14,-15,10,20,30,40,33,44,77,-2,-3]
+# proba_lista = [-11,-12,-13,-14,-15,10,20,30,40,33,44,77,-2,-3]
 
-egesz_szamok_listaja = []
+egesz_szamok_listaja = [] #szamok listaja
 minusz10_minusz15 = [] #1. feladathoz
 a2_5_oszthato = [] #2. feladathoz
 nagyobb_20nal = [] #3.feladathoz
@@ -31,6 +31,8 @@ while True:
     else:
         continue
 
+
+print('Itt van a listád:')
 print(egesz_szamok_listaja)
 
 print('--------------------------------------------------- \n')
@@ -113,3 +115,4 @@ else:
     print('Nem volt negatív szám.')
 
 print('--------------------------------------------------- \n')
+
